@@ -1,6 +1,16 @@
-# SImple Currency Converter build using React JS
+<br />
+<p align="center">
+  <h1 align="center">React-Currency-Calculator</h1>
 
+  <p align="center">
+    SImple Currency Converter build using React JS
+</p>
 
+Checkout the GH Page to play with the [app](https://akkitheakhil.github.io/React-Currency-Converter/) 
+
+* Screenshots
+
+![Mobile](/Screenshot.jpg)
 
 ### Built With
 
