@@ -7,7 +7,7 @@
 * [React](https://reactjs.org/)
 * [Create-React-App](https://create-react-app.dev/)
 * [Axios](https://www.npmjs.com/package/axios)
-
+* [ExchangeRatesApi](https://exchangeratesapi.io)
 
 <!-- GETTING STARTED -->
 ## Getting Started
