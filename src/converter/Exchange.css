@@ -1,0 +1,74 @@
+.exchange-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--bg-accent-color);
+  height: 150px;
+  width: 320px;
+  border-radius: 0.75em;
+  padding: 20px;
+  margin: 15px;
+}
+
+.exchange-container .exchange-coutry {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.exchange-container .exchange-coutry select {
+    width: 75px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    outline: none;
+    border: none;
+    background: none;
+    color: var(--text-color);
+    padding: 0.2em;
+}
+.exchange-container .exchange-coutry select option{
+    color: var(--bg-color);
+    padding: 0.2em;
+}
+.exchange-container .exchange-coutry .selected-country{
+    color: var(--text-color);
+    width: 50%;
+    padding: 0.2em;
+    font-weight: bold;
+}
+
+
+.exchange-container .exchange-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.exchange-container .exchange-options label {
+  font-weight: bold;
+}
+.exchange-container .exchange-options input {
+  margin: 0.5em;
+  border: none;
+  outline: none;
+  background-color: var(--text-accent-color);
+  border-radius: 0.75em;
+  height: 60px;
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--text-color);
+  padding: .6em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

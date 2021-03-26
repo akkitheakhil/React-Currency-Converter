@@ -1,0 +1,27 @@
+.converter{
+max-width: 600px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.converter h3 {
+    text-align: center;
+}
+
+.circle{
+    margin: 10px 0;
+    background-color: var(--text-accent-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle img {
+    width: 80%;
+}
